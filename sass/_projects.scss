@@ -1,0 +1,63 @@
+.projects {
+    height: 150em;
+    position: relative;
+    .projects__wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5em;
+        .design{
+            width: 370px;
+            height: 80px;
+            color:#000000;
+            font-size: 16px;
+            font-weight: 400;
+;
+        }
+        .webdev {
+            width: 370px;
+            height: 110px;
+            color:#000000;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .consult {
+            width: 370px;
+            height: 80px;
+            color:#000000;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    .project {
+        display: block;
+        width: 400px;
+        height: 6em;
+        color: #000000;
+        font-size: 96px;
+        position: relative;
+        top: 3em;
+        left: 2em;
+    }
+    .projects-list {
+        position: relative;
+        height: 300px;
+        .olsta {
+            display: flex;
+            width: 200px;
+            justify-content: space-between;
+            position: relative;
+            left: 55em;
+            
+        }
+        .olsta-project {
+            position: relative;
+            color: #000000;
+            font-size: 48px;
+            font-weight: 400;
+            width: 330px;
+            height: 75px;
+            left: calc(15px + 18em);
+            top: 10px;
+        }
+    }
+}

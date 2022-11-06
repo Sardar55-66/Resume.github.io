@@ -1,0 +1,66 @@
+@media (max-width: 1440px) {
+    body {
+        max-width: 95%;
+    }
+    .header {
+        width: 85em;
+    }
+    .first {
+        width: 75em;
+    }
+    .about-us {
+        .quality {
+            font-size: 61px;
+            left: calc(10em + 35px);
+        }
+        .dev, .market {
+            font-size: 61px;
+        }
+    }
+    .projects {
+        left: 4em;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer {
+        .email {
+            left: 8em;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        width: 78em;
+    }
+    .first {
+        width: 67em;
+    }
+    .about-us {
+        .quality {
+            width: 700px;
+            margin-bottom: 1em;
+        }
+    }
+    .projects {
+        .design {
+            font-size: 12px;
+        }
+        .webdev {
+            font-size: 12px;
+        }
+        .consult {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        width: 65em;
+    }
+    .first {
+        width: 57em;
+    }
+}
